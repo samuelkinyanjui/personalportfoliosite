@@ -122,6 +122,7 @@ HTML and css and Figma designer
 > Download the application to your local computer.
 > cd into it.
 >npm update
+>stlelint "**/*.{css/scss
 
 
 ### Prerequisites
