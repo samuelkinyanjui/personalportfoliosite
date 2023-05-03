@@ -1,192 +1,750 @@
-.flex_container {
-    display: flex;
-    
-    flex-direction: column;
-   
-  }
 
+
+
+
+
+
+/*Minimum mobile screen size should be 375px */
+
+@media  (min-width : 375px ){
+  .flex_container {
  
-  .appbar{
+      display:flex; 
+     
+    
+    
+     flex-direction: column ;
+  
+     /* Then we define how is distributed the remaining space */
+     justify-content: space-around;
 
+     position: relative;
+     width: 381px;
+     height: 800px;
+     background:  #E5E5E5;
+     
+     
+    }
+    
+    
+
+    /* Bars/Status Bars/ Light */
+    .barstatuslight{
+      position: absolute;
+      width: 375px;
+      height: 44px;
+      left: calc(50% - 375px/2);
+      top: 0px;
+     
+
+    }
+    .timeblock{
+          position: absolute;
+          width: 54px;
+          height: 21px;
+          left: 21px;
+          top: 13px;
+
+    
+
+    }
+    .Group3{
+          position: absolute;
+          width: 66.66px;
+          height: 11.34px;
+          left: 293.67px;
+          top: 17.33px;
+    }
+    .compactbar{
+      position: absolute;
+      width: 375px;
+      height: 92px;
+      left: 0px;
+      top: 0px;
+      
+     
+      
+
+    }
+    .toobardark{
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 44px;
+          bottom: 0px;
+    }
+     /* Normal Button/Tertiary/Enabled */
+      .normalbutton{
+              
+
+
+
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              padding: 8px;
+
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              right: 24px;
+              top: calc(50% - 40px/2);
+
+              border-radius: 8px;
+      }
+      .icons{
+                                
+
+
+                      width: 24px;
+                      height: 24px;
+
+
+
+                      flex: none;
+                      order: 0;
+                      flex-grow: 0;
+      }
+      .unions{
+
+            
+
+
+              position: absolute;
+              width: 18px;
+              height: 12px;
+              left: 3px;
+              top: 6px;
+
+
+              background: #28352F;
+      }
+  .vector1{
+         
+
+          position: absolute;
+          left: 16.67%;
+          right: 16.67%;
+          top: 70.83%;
+          bottom: 29.17%;
+
+          border: 2px solid #ACB7C3;
+  }
+  .vector2
+  { 
+      position: absolute;
+      left: 16.67%;
+      right: 16.67%;
+      top: 50%;
+      bottom: 50%;
+
+      border: 2px solid #ACB7C3;
+  }
+.vector3{  
 position: absolute;
-width: 375px;
-height: 92px;
-left: 0px;
-top: 0px;
-top: 0px;
-/* Theme 3 / Neutral 2 */
+left: 16.67%;
+right: 16.67%;
+top: 29.17%;
+bottom: 70.83%;
 
+border: 2px solid #ACB7C3;
 
+}
+.logoplaceholder{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 12px;
 
-  }
-
-  .headline{
-    /* Headline */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 120px 24px;
-gap: 12px;
-
+      position: absolute;
+      width: 24px;
+      height: 48px;
+      left: 12px;
+      top: calc(50% - 48px/2);
+}
+.primaryinmain{
 position: absolute;
-width: 375px;
-height: 590px;
-left: 0px;
-top: 92px;
+width: 327px;
+height: 211px;
+left: 27px;
+top: 156px;
 
-/* Theme 3 / Neutral 1 */
+/* Theme 2 / H2 */
 
-background: #1C1A19;
-
-  }
-
-  .time{
- height: 16px;
-width: 54px;
-left: 0px;
-top: 3px;
-border-radius: nullpx;
-background: white;
-
-  }
-  .mylogo{
-    /* My Logo */
-
-
-width: 70px;
-height: 24px;
-
-font-family: 'Roboto';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
+font-size: 23x;
+line-height: 42px;
+/* or 130% */
 
-display: flex;
-align-items: center;
 text-align: center;
 
-/* Theme 3 / Neutral 11 */
+/* Neutrals/N800 */
 
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+color: #172B4D;
+}
+.Supportingtext{
+  /* Supporting Text */
 
 
+position: absolute;
+width: 327px;
+height: 164px;
+left: 27px;
+
+
+/* Theme 2 / Body Reguler 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+background:  #E5E5E5;
+
+}
+.socialmedia{
+
+  /* social media icons */
+
+
+position: absolute;
+width: 170.17px;
+height: 19.62px;
+left: 105px;
+top: 568.89px;
+background:  #E5E5E5;
+}
+.twitter{
+  /* twitter */
+
+
+position: absolute;
+left: 27.56%;
+right: 67.2%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+
+.github{
+  /* github */
+
+
+position: absolute;
+left: 58.79%;
+right: 36.49%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+
+
+.angellist{
+  /* angellist */
+
+
+position: absolute;
+left: 68.5%;
+right: 27.78%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+
+.medium{
+position: absolute;
+left: 48.29%;
+right: 46.46%;
+top: 8.99%;
+bottom: 90.76%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+.vectorin{
+  /* Vector */
+position: absolute;
+left: 39.71%;
+right: 56.96%;
+top: 9%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+.vectori{
+  /* Vector */
+position: absolute;
+left: 37.8%;
+right: 60.9%;
+top: 9.05%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+.goup37{
+  /* Group 37 */
+
+
+position: absolute;
+width: 73.7px;
+height: 79.49px;
+left: 53.29px;
+top: 632.01px;
+
+opacity: 0.88;
+transform: rotate(168.14deg);
+}
+
+.frame{
+  /* Frame */
+
+
+position: absolute;
+width: 58.25px;
+height: 66.5px;
+left: 50.13px;
+top: 617px;
+
+transform: rotate(152.88deg);
+}
+.group{
+  
+
+
+position: absolute;
+left: 140.57%;
+right: -139.85%;
+top: 88.87%;
+bottom: -88.51%;
+
+transform: rotate(152.88deg);
+}
+.vector1st{
+  /* Vector */
+
+
+position: absolute;
+left: 69.52%;
+right: -16.5%;
+top: 65.1%;
+bottom: -15.2%;
+
+background: #172B4D;
+transform: rotate(152.88deg);
+}
+.groupbelowmenu{
+  /* Group */
+
+
+position: absolute;
+left: 82.05%;
+right: -81.36%;
+top: 166.4%;
+bottom: -165.37%;
+
+transform: rotate(-145.24deg);
+
+}
+
+
+
+}
+
+/*Minimum desktop screen size should be 768px */
+@media  (min-width : 768px){
+  .flex_container {
+ 
+      display:flex; 
+     
+    
+    
+     flex-direction: column ;
+  
+     /* Then we define how is distributed the remaining space */
+     justify-content: space-around;
+
+     position: relative;
+     width: 381px;
+     height: 800px;
+     background:  #E5E5E5;
+     
+     
+    }
+    
+   
+
+    /* Bars/Status Bars/ Light */
+    .barstatuslight{
+      position: absolute;
+      width: 375px;
+      height: 44px;
+      left: calc(50% - 375px/2);
+      top: 0px;
+     
+
+    }
+    .timeblock{
+          position: absolute;
+          width: 54px;
+          height: 21px;
+          left: 21px;
+          top: 13px;
+
+    
+
+    }
+    .Group3{
+          position: absolute;
+          width: 66.66px;
+          height: 11.34px;
+          left: 293.67px;
+          top: 17.33px;
+    }
+    .compactbar{
+      position: absolute;
+      width: 375px;
+      height: 92px;
+      left: 0px;
+      top: 0px;
+      
+     
+      
+
+    }
+    .toobardark{
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 44px;
+          bottom: 0px;
+    }
+     /* Normal Button/Tertiary/Enabled */
+      .normalbutton{
+              
+
+
+
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              padding: 8px;
+
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              right: 24px;
+              top: calc(50% - 40px/2);
+
+              border-radius: 8px;
+      }
+      .icons{
+                                
+
+
+                      width: 24px;
+                      height: 24px;
+
+
+
+                      flex: none;
+                      order: 0;
+                      flex-grow: 0;
+      }
+      .unions{
+
+            
+
+
+              position: absolute;
+              width: 18px;
+              height: 12px;
+              left: 3px;
+              top: 6px;
+
+
+              background: #28352F;
+      }
+  .vector1{
+         
+
+          position: absolute;
+          left: 16.67%;
+          right: 16.67%;
+          top: 70.83%;
+          bottom: 29.17%;
+
+          border: 2px solid #ACB7C3;
   }
-  /*cellura image */
-  /* Cellular Connection */
-.cellura{
+  .vector2
+  { 
+      position: absolute;
+      left: 16.67%;
+      right: 16.67%;
+      top: 50%;
+      bottom: 50%;
+
+      border: 2px solid #ACB7C3;
+  }
+.vector3{  
 position: absolute;
-width: 17px;
-height: 10.67px;
-right: 64.33px;
-top: 17.67px;
+left: 16.67%;
+right: 16.67%;
+top: 29.17%;
+bottom: 70.83%;
 
-background: #FFFFFF;
+border: 2px solid #ACB7C3;
 
-
-/* Cellular_Connection-path */
-
-position: absolute;
-width: 3px;
-height: 4px;
-right: 78.33px;
-top: 24.33px;
-
-background: #FFFFFF;
-
-
-/* Cellular_Connection-path */
-
-position: absolute;
-width: 3px;
-height: 6px;
-right: 73.67px;
-top: 22.33px;
-
-background: #FFFFFF;
-
-
-/* Cellular_Connection-path */
-
-position: absolute;
-width: 3px;
-height: 8.33px;
-right: 69px;
-top: 20px;
-
-background: #FFFFFF;
-
-
-/* Cellular_Connection-path */
-
-position: absolute;
-width: 3px;
-height: 10.67px;
-right: 64.33px;
-top: 17.67px;
-
-background: #FFFFFF;
 }
-p{
+.logoplaceholder{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 12px;
 
-    /* Primary Text */
-
+      position: absolute;
+      width: 24px;
+      height: 48px;
+      left: 12px;
+      top: calc(50% - 48px/2);
+}
+.primaryinmain{
+position: absolute;
 width: 327px;
-height: 124px;
+height: 211px;
+left: 27px;
+top: 156px;
 
-font-family: 'Crete Round';
+/* Theme 2 / H2 */
+
+font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-/* or 114% */
-letter-spacing: 0.37px;
+font-weight: 700;
+font-size: 23x;
+line-height: 42px;
+/* or 130% */
 
-/* Theme 3 / Primary 1 */
-color: #FF6B00;
+text-align: center;
 
+/* Neutrals/N800 */
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+color: #172B4D;
 }
-.myname{
+.Supportingtext{
+  /* Supporting Text */
 
-    /* Primary Text */
 
+position: absolute;
 width: 327px;
-height: 124px;
+height: 164px;
+left: 27px;
 
-font-family: 'Crete Round';
+
+/* Theme 2 / Body Reguler 1 */
+
+font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-/* or 114% */
-letter-spacing: 0.37px;
+font-weight: 200;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
 
-/* Theme 3 / Primary 1 */
-color: #FF6B00;
+text-align: center;
 
+/* Neutrals/N800 */
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+color: #172B4D;
 
 }
+.socialmedia{
+
+  /* social media icons */
+
+
+position: absolute;
+width: 170.17px;
+height: 19.62px;
+left: 105px;
+top: 568.89px;
+}
+.twitter{
+  /* twitter */
+
+
+position: absolute;
+left: 27.56%;
+right: 67.2%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+
+.github{
+  /* github */
+
+
+position: absolute;
+left: 58.79%;
+right: 36.49%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+
+
+.angellist{
+  /* angellist */
+
+
+position: absolute;
+left: 68.5%;
+right: 27.78%;
+top: 8.96%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+
+.medium{
+position: absolute;
+left: 48.29%;
+right: 46.46%;
+top: 8.99%;
+bottom: 90.76%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+}
+.vectorin{
+  /* Vector */
+position: absolute;
+left: 39.71%;
+right: 56.96%;
+top: 9%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+.vectori{
+  /* Vector */
+position: absolute;
+left: 37.8%;
+right: 60.9%;
+top: 9.05%;
+bottom: 90.73%;
+
+/* Neutrals/N400 */
+
+background: #505F79;
+
+}
+.goup37{
+  /* Group 37 */
+
+
+position: absolute;
+width: 73.7px;
+height: 79.49px;
+left: 53.29px;
+top: 632.01px;
+
+opacity: 0.88;
+transform: rotate(168.14deg);
+}
+
+.frame{
+  /* Frame */
+
+
+position: absolute;
+width: 58.25px;
+height: 66.5px;
+left: 50.13px;
+top: 617px;
+
+transform: rotate(152.88deg);
+}
+.group{
+  
+
+
+position: absolute;
+left: 140.57%;
+right: -139.85%;
+top: 88.87%;
+bottom: -88.51%;
+
+transform: rotate(152.88deg);
+}
+.vector1st{
+  /* Vector */
+
+
+position: absolute;
+left: 69.52%;
+right: -16.5%;
+top: 65.1%;
+bottom: -15.2%;
+
+background: #172B4D;
+transform: rotate(152.88deg);
+}
+.groupbelowmenu{
+  /* Group */
+
+
+position: absolute;
+left: 82.05%;
+right: -81.36%;
+top: 166.4%;
+bottom: -165.37%;
+
+transform: rotate(-145.24deg);
+
+}
+
+
+}
+
+
+
+
 
