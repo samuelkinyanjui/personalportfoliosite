@@ -120,6 +120,8 @@ HTML and css and Figma designer
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Download the application to your local computer.
+> cd into it.
+>npm update
 
 
 ### Prerequisites
