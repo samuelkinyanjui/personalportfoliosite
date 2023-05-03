@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ 
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Samuel personal profile website</b></h3>
 
 </div>
 
@@ -60,22 +60,22 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Pesersonal profile website <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is the second microverse project. I want to build strong personal website.
 
-**[your_project__name]** is a...
+**personal website** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-
+HTML and css and Figma designer
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> It will run on MYSQL or any other web hosting application
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Any web broweser/mostly mozila/firefox</a></li>
   </ul>
 </details>
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **My Educational background**
+- **Future plans**
+- **Gaming**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +109,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> https://github.com/samuelkinyanjui/personalportfoliosite
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://github.com/samuelkinyanjui/personalportfoliosite)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,14 +119,12 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Download the application to your local computer.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
-In order to run this project you need:
-
+Node
+code editor 
 <!--
 Example command:
 
@@ -139,83 +137,46 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
-```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone https://github.com/samuelkinyanjui/personalportfoliosite
+
 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+copy the folder to Wamp web folder
 
 ### Usage
 
-To run the project, execute the following command:
+Launch your server
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
-To run tests, run the following command:
+open the home/index file
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+Use amazon or inhouse hosting for deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="authors"></a
+> Microverse,Samuel
 
-> Mention all of the collaborators of this project.
-
+👤
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/samuelkinyanjui/personalportfoliosite)
+- Twitter: [@twitterhandle](https://twitter.com/sax80kinya)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/samuelkinta)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,13 +186,13 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+Android based site
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+Write an email to sax80kinya@gmail.com
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -245,9 +206,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Use the project to buld your own website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +214,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+
+I would like to thank...all microverse student
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +224,15 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
 
-  - [Answer_1]
+What is the main tool used to make this application?
 
-- **[Question_2]**
+  HTML
 
-  - [Answer_2]
+-How can we use the template?
+you just clone it
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
