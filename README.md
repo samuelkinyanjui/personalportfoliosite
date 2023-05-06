@@ -1,36 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
- 
   <br/>
 
-  <h3><b>Samuel personal profile website</b></h3>
+  <h3><b>My Website</b></h3>
 
 </div>
 
@@ -62,18 +34,19 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Pesersonal profile website <a name="about-project"></a>
 
-> This is the second microverse project. I want to build strong personal website.
+> This is the My personal website.Engineers need to showcase their expertsim.
 
-**personal website** is a...
+**The my personal website ** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-HTML and css and Figma designer
+HTML and css and flex box 
 ### Tech Stack <a name="tech-stack"></a>
 
-> It will run on MYSQL or any other web hosting application
-
+> We use the flex box to place items on the page
+>We use css mobile first design to place items in widht greater tha 375px width
+>Keep everything ordely
 <details>
-  <summary>Client</summary>
+  <summary>Web browser</summary>
   <ul>
     <li><a href="https://reactjs.org/">Any web broweser/mostly mozila/firefox</a></li>
   </ul>
@@ -89,7 +62,7 @@ HTML and css and Figma designer
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>>No database is needed</li>
   </ul>
 </details>
 
@@ -97,11 +70,13 @@ HTML and css and Figma designer
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+The Website intoduces me to the world
+The website show projects done in the past
+My title show on the page
+The website has menu and main information
+The website has link to other pages
 
-- **My Educational background**
-- **Future plans**
-- **Gaming**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +84,7 @@ HTML and css and Figma designer
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> https://github.com/samuelkinyanjui/personalportfoliosite
+>https://github.com/samuelkinyanjui/personalportfoliosite
 
 - [Live Demo Link](https://github.com/samuelkinyanjui/personalportfoliosite)
 
@@ -121,13 +96,20 @@ HTML and css and Figma designer
 
 > Download the application to your local computer.
 > cd into it.
->npm update
->stlelint "**/*.{css/scss
+>create github/workflow/linters.yml file
+>install lighthouse linter npm install -g lighthouse
+>install weblint
+>npm init -y 
+>npm install --save-dev hint@7.x
+>install stylelint 
+>start webserver
+>Open index.html
 
 
 ### Prerequisites
 Node
 code editor 
+linets
 <!--
 Example command:
 
@@ -153,6 +135,7 @@ copy the folder to Wamp web folder
 ### Usage
 
 Launch your server
+open index.html
 
 
 
@@ -177,7 +160,7 @@ Use amazon or inhouse hosting for deployment
 👤
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/samuelkinyanjui/personalportfoliosite)
+- GitHub: [@githubhandle](https://github.com/samuelkinyanjui/
 - Twitter: [@twitterhandle](https://twitter.com/sax80kinya)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/samuelkinta)
 
@@ -187,9 +170,9 @@ Use amazon or inhouse hosting for deployment
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-Android based site
+
+Make the website better in personal relations
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -209,7 +192,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Use the project to buld your own website
+>Use the project to buld your own website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +214,9 @@ I would like to thank...all microverse student
 
 What is the main tool used to make this application?
 
-  HTML
+ > HTML
+ >flexbox
+ >linters
 
 -How can we use the template?
 you just clone it
@@ -245,6 +230,4 @@ you just clone it
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+_<p align="right">(<a href="#readme-top">back to top</a>)</p>
