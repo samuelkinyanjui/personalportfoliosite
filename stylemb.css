@@ -437,11 +437,11 @@ img {
 
   .frameleft {
     position: absolute;
-    width: 217px;
-    height: 220.89px;
-    left: 110.14px;
-    top: 217.74px;
-    transform: rotate(22.11deg);
+    left: 140.57%;
+    right: -139.85%;
+    top: 88.87%;
+    bottom: -88.51%;
+    transform: rotate(152.88deg);
   }
 
   .barstatuslight {
@@ -1109,11 +1109,11 @@ img {
 
   .frameleft {
     position: absolute;
-    width: 217px;
-    height: 220.89px;
-    left: 110.14px;
-    top: 217.74px;
-    transform: rotate(22.11deg);
+    left: 140.57%;
+    right: -139.85%;
+    top: 88.87%;
+    bottom: -88.51%;
+    transform: rotate(152.88deg);
   }
 
   .barstatuslight {
